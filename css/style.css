@@ -4,12 +4,12 @@
     --white: #f7f8fa;
     --medblue: #6a9bcc;
     --dkblue: #225e99;
-    --aqua: #86fbfb;
+    --aqua: #9efffc;
     --palepink: #ffe5de;
     --terracotta: #cc706a;
     --font-size: 1.3rem;
-    --mono: "Oxygen mono", monospace;
-    --sans: Oxygen, sans-serif;
+    --header-font: "DM Serif Display", serif;
+    --reg-font: 'DM Sans', sans-serif;
   }
   /* border box model: https://css-tricks.com/box-sizing/ */
   html {
@@ -24,9 +24,9 @@
   body {
     padding: 0;
     margin: 0;
-    font-family: var(--sans);
-    background-color: var(--black);
-    color: var(--white);
+    font-family: var(--reg-font);
+    background-color: var(--palepink);
+    color: var(--dkblue);
     font-size: var(--font-size);
   }
   h1,
@@ -35,11 +35,11 @@
     margin: 0;
   }
   a {
-    color: var(--magenta);
+    color: var(--medblue);
   }
   
   a:hover {
-    color: var(--hotmag);
+    color: var(--white);
     text-decoration: none;
   }
   /* intro styles */
@@ -53,12 +53,12 @@
   }
   
   #intro .name {
-    font-family: var(--mono);
+    font-family: var(--header-font);
     font-size: 1rem;
   }
   
   .name span {
-    font-family: var(--sans);
+    font-family: var(--reg-font);
     font-size: 4rem;
     color: var(--aqua);
     display: block;
@@ -84,13 +84,13 @@
   
   /* navigation */
   nav {
-    font-family: var(--mono);
+    font-family: var(--header-font);
     font-size: 80%;
     padding: 1rem;
   }
   
   nav h1 a {
-    font-family: var(--sans);
+    font-family: var(--reg-font);
   }
   
   nav ul {
@@ -109,11 +109,11 @@
   }
   nav [class*="fa-"] {
     font-size: 150%;
-    color: var(--aqua);
+    color: var(--terracotta);
   }
   nav h1 [class*="fa-"] {
     font-size: 100%;
-    color: var(--aqua);
+    color: var(--terracotta);
   }
   nav a {
     color: white;
@@ -123,10 +123,10 @@
   
   nav a:hover,
   nav [class*="fa-"]:hover {
-    color: var(--magenta);
+    color: red;
   }
   .button {
-    background-color: var(--magenta);
+    background-color: var(--dkblue);
     color: white;
     padding: 0.5rem;
     border-radius: 5px;
@@ -134,7 +134,7 @@
   
   .button:hover {
     color: white;
-    background-color: var(--hotmag);
+    background-color: var(--medblue);
   }
   @media (min-width: 850px) {
     nav {
