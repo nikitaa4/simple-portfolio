@@ -92,6 +92,8 @@
     color: white;
     padding: 0.5rem;
     border-radius: 5px;
+    font-family: var(--header-font);
+    text-decoration: none;
   }
   
   .button:hover {
@@ -112,7 +114,9 @@
 
   /* Intro section */
   #intro {
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   #intro p {
@@ -137,6 +141,11 @@
     font-size: 4rem;
   }
 
+/* Background color divs */
+  .section-bg-color {
+    background-color: white;
+  }
+
   /* Contact section */
   #contact {
     width: 400px;
@@ -152,6 +161,7 @@
   /* Footer section*/
   footer {
     text-align: center;
+    padding: 4rem 0;
   }
   footer ul {
     list-style-type: none;
