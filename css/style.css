@@ -75,7 +75,7 @@
   }
   nav h1 [class*="fa-"] {
     font-size: 100%;
-    color: var(--terracotta);
+    color: var(--palepink);
   }
   nav a {
     color: white;
