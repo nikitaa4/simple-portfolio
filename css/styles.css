@@ -4,9 +4,9 @@
     --white: #f7f8fa;
     --medblue: #6a9bcc;
     --dkblue: #225e99;
-    --aqua: #9efffc;
     --palepink: #ffe5de;
     --terracotta: #cc706a;
+    --fuchsia: #DA4271;
     --font-size: 1.3rem;
     --header-font: "DM Serif Display", serif;
     --reg-font: 'DM Sans', sans-serif;
@@ -38,7 +38,7 @@ a {
     color: var(--medblue);
 }
 a:hover {
-    color: red;
+    color: var(--fuchsia);
     text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ nav a {
   
 nav a:hover,
 nav [class*="fa-"]:hover {
-    color: red;
+    color: var(--medblue);
 }
 .button {
     background-color: var(--dkblue);
